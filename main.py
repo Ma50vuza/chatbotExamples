@@ -16,7 +16,7 @@ def chatbot():
 
     resp = MessagingResponse()
     message= resp.message()
-    print(dir(message))
+    #print(dir(message))
 
     if "cat" in inc_msg: 
         message.media("https://cataas.com/cat ")
